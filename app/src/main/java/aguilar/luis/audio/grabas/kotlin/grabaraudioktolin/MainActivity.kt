@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity(), MediaPlayer.OnCompletionListener {
             }
 
             recorder.start()
-            tv1.text = "Recording"
+            tv1.text = "Recording..."
             button1.setEnabled(false)
             button2.setEnabled(true)
         }
